@@ -1,6 +1,6 @@
 # Janusz Daily Assistant
 
-Awesome assistant that help in the daily manner
+Awesome assistant that help in the daily manner :sunglasses:
 
 ![Janusz](janusz.png)
 
