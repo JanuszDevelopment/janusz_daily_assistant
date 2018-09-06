@@ -19,20 +19,13 @@ public class GoogleHomeCommandController {
 
     private String testResposne() {
         return "{\n" +
-                "  \"payload\": {\n" +
-                "    \"google\": {\n" +
-                "      \"expectUserResponse\": true,\n" +
-                "      \"richResponse\": {\n" +
-                "        \"items\": [\n" +
-                "          {\n" +
-                "            \"simpleResponse\": {\n" +
-                "              \"textToSpeech\": \"this is a simple response\"\n" +
-                "            }\n" +
-                "          }\n" +
-                "        ]\n" +
-                "      }\n" +
-                "    }\n" +
+                "\"conversation_token\": \"token\",\n" +
+                "\"expect_user_response\": false,\n" +
+                "\"final_response\": {\n" +
+                "  \"speech_response\": {\n" +
+                "    \"text_to_speech\": \"Janush response from Spring Boot\"\n" +
                 "  }\n" +
+                "}\n" +
                 "}";
     }
 
