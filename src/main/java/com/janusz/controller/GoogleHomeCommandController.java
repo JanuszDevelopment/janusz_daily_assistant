@@ -11,7 +11,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.POST;
 @RestController
 public class GoogleHomeCommandController {
 
-    @RequestMapping(value = "/parseCommand", method = POST)
+    @RequestMapping(value = "/parseCommand", method = POST, produces = "application/json")
     public String index() {
         System.out.println("Shoot");
         return testResposne();
