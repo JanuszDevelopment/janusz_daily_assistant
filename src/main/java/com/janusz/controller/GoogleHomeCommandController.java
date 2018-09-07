@@ -17,6 +17,7 @@ public class GoogleHomeCommandController {
     @RequestMapping(value = "/parseCommand", method = POST, produces = "application/json")
     public ResponseEntity<String> index() {
         System.out.println(getJanushLogo());
+        System.out.println("Received command from Janush daily assistant");
         HttpHeaders headers = new HttpHeaders();
         headers.add("Google-Assistant-API-Version", "v1");
         return new ResponseEntity<>(testResposne(), headers, HttpStatus.OK);
