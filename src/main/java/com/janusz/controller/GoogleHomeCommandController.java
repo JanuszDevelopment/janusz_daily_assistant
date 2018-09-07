@@ -13,7 +13,7 @@ public class GoogleHomeCommandController {
 
     @RequestMapping(value = "/parseCommand", method = POST)
     public String index() {
-        System.out.println("Received response from Janush daily assistant");
+        System.out.println("Received command from Janush daily assistant");
         return "Success";
     }
 }
